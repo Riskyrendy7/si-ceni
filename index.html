@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SI CENI Bio-Link</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #001f3f;
+            color: white;
+            text-align: center;
+            animation: fadeIn 1.2s ease-in;
+        }
+
+        .container {
+            padding: 2rem;
+        }
+
+        .logo {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .logo:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            font-size: clamp(1.5rem, 3vw, 2.5rem);
+            color: #f6c700;
+        }
+
+        .link-button {
+            display: block;
+            width: 80%;
+            max-width: 400px;
+            margin: 1rem auto;
+            padding: 1rem;
+            background-color: #f6c700;
+            color: #001f3f;
+            border: none;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .link-button:hover {
+            background-color: #ffd700;
+            transform: scale(1.03);
+        }
+
+        footer {
+            margin-top: 3rem;
+            font-size: 0.9rem;
+            color: #ccc;
+        }
+
+        @keyframes fadeIn {
+            from {opacity: 0; transform: translateY(20px);}
+            to {opacity: 1; transform: translateY(0);}
+        }
+
+        @media (max-width: 600px) {
+            .link-button {
+                font-size: 1rem;
+                padding: 0.8rem;
+            }
+
+            .logo {
+                width: 120px;
+            }
+
+            .container {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="siceni.png" alt="SI CENI" class="logo">
+        <h1>SI CENI - Lapas Kelas IIA Kotabaru</h1>
+        <a href="https://instagram.com/lapas_kotabaru" class="link-button" target="_blank">Instagram @lapas_kotabaru</a>
+        <a href="https://facebook.com" class="link-button" target="_blank">Facebook Lapas Kelas IIA Kotabaru</a>
+        <a href="https://x.com/kotabarulapas" class="link-button" target="_blank">X (Twitter) @kotabarulapas</a>
+        <a href="https://wa.me/6281235534455" class="link-button" target="_blank">WhatsApp 081235534455</a>
+        <a href="https://lapaskotabaru.kemenkumham.go.id" class="link-button" target="_blank">Website Resmi</a>
+    </div>
+
+    <footer>
+        &copy; 2025 Lapas Kotabaru - Kemenkumham RI
+    </footer>
+</body>
+</html>
